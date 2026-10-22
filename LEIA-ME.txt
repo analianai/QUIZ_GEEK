@@ -1,0 +1,44 @@
+QUIZ GEEK — SITE COM 50 PERGUNTAS
+=================================
+
+COMO ABRIR SEM INSTALAR NADA:
+1. Extraia o arquivo ZIP.
+2. Abra a pasta quiz_geek_50.
+3. Dê dois cliques em index.html (Chrome, Edge, Firefox etc.).
+4. Clique em SORTEAR PERGUNTA.
+5. Leia a questão e clique na letra escolhida (A, B, C ou D).
+6. O sistema mostra ACERTOU (verde) ou ERROU (vermelho) e a resposta correta.
+7. Clique em PRÓXIMA PERGUNTA. As questões não se repetem na rodada.
+
+ARQUIVOS:
+- index.html: página do quiz.
+- estilo.css: visual e ajustes para celular/projetor.
+- script.js: sorteio, correção automática e navegação.
+- perguntas.json: arquivo principal com 50 perguntas e seus gabaritos.
+- dados-offline.js: cópia do JSON para abrir por duplo clique, sem servidor.
+
+USAR NO GITHUB PAGES:
+Publique os cinco arquivos na mesma pasta. Ao acessar por HTTPS, o JavaScript
+obtém todas as questões diretamente de perguntas.json usando fetch().
+
+OBSERVAÇÃO SOBRE JSON LOCAL:
+Por segurança, navegadores bloqueiam fetch('perguntas.json') quando o HTML
+é aberto como file://. Para funcionar também por duplo clique, incluímos
+um espelho do mesmo banco em dados-offline.js. Na versão publicada na web,
+o próprio perguntas.json é usado diretamente.
+
+Se quiser ALTERAR as perguntas e utilizar o quiz publicado, edite apenas
+perguntas.json. Se quiser ALTERAR as perguntas e usá-lo abrindo por duplo clique,
+atualize também dados-offline.js com os mesmos dados do JSON, mantendo o começo
+'window.QUIZ_GEEK_DADOS_OFFLINE = ' e um ponto e vírgula no final.
+
+REGRAS IMPLEMENTADAS:
+- 50 perguntas, distribuídas em 5 assuntos (10 por assunto).
+- 4 alternativas por questão (A, B, C e D).
+- Uma única resposta correta por questão, definida no JSON.
+- Sorteio sem repetição até completar as 50 questões.
+- Correção imediata, com alternativa certa em verde e errada em vermelho.
+- Não soma pontos nem aplica punições; o professor anota a pontuação à parte.
+- Guarda progresso no navegador quando o armazenamento local está disponível.
+- Sem Python, sem biblioteca, sem instalação, sem conta e sem internet.
+- Teclas A, B, C e D também podem responder.

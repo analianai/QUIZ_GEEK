@@ -1,0 +1,656 @@
+{
+  "titulo": "Quiz Geek — 50 Perguntas",
+  "versao": "1.1",
+  "questoes": [
+    {
+      "id": 1,
+      "categoria": "Jogos",
+      "dificuldade": "Fácil",
+      "pergunta": "Em qual jogo aparecem os Creepers e a dimensão Nether?",
+      "alternativas": {
+        "A": "Fortnite",
+        "B": "Roblox",
+        "C": "Terraria",
+        "D": "Minecraft"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 2,
+      "categoria": "Jogos",
+      "dificuldade": "Fácil",
+      "pergunta": "Qual personagem da Nintendo é um encanador conhecido pelo boné vermelho com a letra M?",
+      "alternativas": {
+        "A": "Mario",
+        "B": "Wario",
+        "C": "Sonic",
+        "D": "Luigi"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 3,
+      "categoria": "Jogos",
+      "dificuldade": "Fácil",
+      "pergunta": "Em Among Us, qual é a função principal do impostor?",
+      "alternativas": {
+        "A": "Organizar votações para escolher o líder",
+        "B": "Proteger cada tripulante durante a rodada",
+        "C": "Sabotar e eliminar tripulantes sem ser descoberto",
+        "D": "Concluir todas as tarefas da nave"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 4,
+      "categoria": "Jogos",
+      "dificuldade": "Fácil",
+      "pergunta": "Qual é o tipo principal do Pokémon Pikachu?",
+      "alternativas": {
+        "A": "Fogo",
+        "B": "Psíquico",
+        "C": "Água",
+        "D": "Elétrico"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 5,
+      "categoria": "Jogos",
+      "dificuldade": "Médio",
+      "pergunta": "Na maioria dos jogos principais de The Legend of Zelda, quem é o personagem controlado pelo jogador?",
+      "alternativas": {
+        "A": "Ganondorf",
+        "B": "Zelda",
+        "C": "Link",
+        "D": "Impa"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 6,
+      "categoria": "Jogos",
+      "dificuldade": "Médio",
+      "pergunta": "Qual é o gênero de partidas em que muitos participantes competem até restar um vencedor, como em Fortnite?",
+      "alternativas": {
+        "A": "Puzzle",
+        "B": "MOBA",
+        "C": "Plataforma 2D",
+        "D": "Battle royale"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 7,
+      "categoria": "Jogos",
+      "dificuldade": "Médio",
+      "pergunta": "Qual material forma a moldura de um portal do Nether funcional no Minecraft?",
+      "alternativas": {
+        "A": "Tijolos de pedra",
+        "B": "Obsidiana",
+        "C": "Pedra lisa",
+        "D": "Bloco de esmeralda"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 8,
+      "categoria": "Jogos",
+      "dificuldade": "Médio",
+      "pergunta": "Nos jogos, o que significa a sigla FPS quando ela indica um gênero?",
+      "alternativas": {
+        "A": "Simulação de corrida",
+        "B": "Quadros por segundo",
+        "C": "Tiro em primeira pessoa",
+        "D": "Estratégia por turnos"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 9,
+      "categoria": "Jogos",
+      "dificuldade": "Difícil",
+      "pergunta": "No Minecraft, qual recurso permite montar circuitos e mecanismos como portas automáticas?",
+      "alternativas": {
+        "A": "Redstone",
+        "B": "Carvão vegetal",
+        "C": "Diamante",
+        "D": "Lápis-lazúli"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 10,
+      "categoria": "Jogos",
+      "dificuldade": "Difícil",
+      "pergunta": "Em desenvolvimento de jogos, o que é uma hitbox?",
+      "alternativas": {
+        "A": "Uma pasta onde ficam os arquivos salvos",
+        "B": "Uma área usada para detectar colisões ou impactos",
+        "C": "Um efeito que aumenta o volume do jogo",
+        "D": "Um menu de configurações gráficas"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 11,
+      "categoria": "Tecnologia",
+      "dificuldade": "Fácil",
+      "pergunta": "Qual componente é conhecido como unidade central de processamento de um computador?",
+      "alternativas": {
+        "A": "Fonte de alimentação",
+        "B": "Memória RAM",
+        "C": "Placa de rede",
+        "D": "CPU (processador)"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 12,
+      "categoria": "Tecnologia",
+      "dificuldade": "Fácil",
+      "pergunta": "Qual linguagem de marcação define títulos, parágrafos e links de uma página web?",
+      "alternativas": {
+        "A": "SQL",
+        "B": "HTML",
+        "C": "CSS",
+        "D": "Java"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 13,
+      "categoria": "Tecnologia",
+      "dificuldade": "Fácil",
+      "pergunta": "Qual tecnologia é usada para definir cores, fontes e layout de páginas web?",
+      "alternativas": {
+        "A": "SQL",
+        "B": "CSS",
+        "C": "DNS",
+        "D": "HTML"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 14,
+      "categoria": "Tecnologia",
+      "dificuldade": "Fácil",
+      "pergunta": "Qual destas memórias normalmente perde seu conteúdo quando o computador é desligado?",
+      "alternativas": {
+        "A": "Pen drive",
+        "B": "RAM",
+        "C": "SSD",
+        "D": "HD"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 15,
+      "categoria": "Tecnologia",
+      "dificuldade": "Médio",
+      "pergunta": "Para que serve principalmente o DNS quando você acessa um site?",
+      "alternativas": {
+        "A": "Guardar automaticamente senhas do navegador",
+        "B": "Aumentar a velocidade física do Wi-Fi",
+        "C": "Detectar vírus no computador",
+        "D": "Traduzir nomes de domínio em endereços IP"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 16,
+      "categoria": "Tecnologia",
+      "dificuldade": "Médio",
+      "pergunta": "Qual proteção o protocolo HTTPS, usando TLS corretamente, oferece durante a comunicação?",
+      "alternativas": {
+        "A": "Backup automático de todos os arquivos",
+        "B": "Anonimato absoluto para o visitante",
+        "C": "Garantia de que todo conteúdo do site é verdadeiro",
+        "D": "Criptografia dos dados em trânsito"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 17,
+      "categoria": "Tecnologia",
+      "dificuldade": "Médio",
+      "pergunta": "Qual característica diferencia um SSD de um HD mecânico tradicional?",
+      "alternativas": {
+        "A": "Perde obrigatoriamente todos os dados ao desligar",
+        "B": "Sempre possui capacidade maior que qualquer HD",
+        "C": "Armazena dados sem pratos magnéticos giratórios",
+        "D": "Só funciona quando conectado à internet"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 18,
+      "categoria": "Tecnologia",
+      "dificuldade": "Médio",
+      "pergunta": "Qual comando Git é usado para copiar um repositório remoto para o computador?",
+      "alternativas": {
+        "A": "git commit",
+        "B": "git clone",
+        "C": "git merge",
+        "D": "git push"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 19,
+      "categoria": "Tecnologia",
+      "dificuldade": "Difícil",
+      "pergunta": "Qual comando normalmente envia solicitações ICMP de eco para testar a resposta de um host?",
+      "alternativas": {
+        "A": "nslookup",
+        "B": "ping",
+        "C": "tracert",
+        "D": "ipconfig"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 20,
+      "categoria": "Tecnologia",
+      "dificuldade": "Difícil",
+      "pergunta": "Dois equipamentos da mesma sub-rede IPv4 recebem o mesmo endereço IP de forma indevida. Qual é o problema?",
+      "alternativas": {
+        "A": "Falha de resolução de nomes DNS",
+        "B": "Atualização automática de firmware",
+        "C": "Conflito de endereços IP",
+        "D": "Incompatibilidade de resolução de tela"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 21,
+      "categoria": "Inteligência artificial",
+      "dificuldade": "Fácil",
+      "pergunta": "Qual tipo de inteligência artificial pode gerar textos e imagens novos a partir de comandos?",
+      "alternativas": {
+        "A": "Antivírus de assinatura fixa",
+        "B": "Roteador de rede",
+        "C": "IA generativa",
+        "D": "Compactador de arquivos"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 22,
+      "categoria": "Inteligência artificial",
+      "dificuldade": "Fácil",
+      "pergunta": "Como se chama a instrução escrita que uma pessoa envia a um modelo de IA?",
+      "alternativas": {
+        "A": "Prompt",
+        "B": "Driver",
+        "C": "Cache",
+        "D": "Backup"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 23,
+      "categoria": "Inteligência artificial",
+      "dificuldade": "Fácil",
+      "pergunta": "Qual destas opções é um exemplo de chatbot?",
+      "alternativas": {
+        "A": "Um assistente que conversa e responde perguntas",
+        "B": "Um arquivo de imagem sem animação",
+        "C": "Um sensor que mede a temperatura",
+        "D": "Um disco usado apenas para armazenar dados"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 24,
+      "categoria": "Inteligência artificial",
+      "dificuldade": "Fácil",
+      "pergunta": "Em aprendizado de máquina, o que um modelo procura identificar a partir dos dados?",
+      "alternativas": {
+        "A": "Somente o tamanho dos arquivos",
+        "B": "Padrões e relações",
+        "C": "A cor do gabinete do computador",
+        "D": "O número de cabos conectados"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 25,
+      "categoria": "Inteligência artificial",
+      "dificuldade": "Médio",
+      "pergunta": "Quando uma IA apresenta uma informação falsa de maneira convincente, como chamamos esse fenômeno?",
+      "alternativas": {
+        "A": "Alucinação",
+        "B": "Compilação",
+        "C": "Criptografia",
+        "D": "Compactação"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 26,
+      "categoria": "Inteligência artificial",
+      "dificuldade": "Médio",
+      "pergunta": "Se um sistema de IA reproduz discriminações presentes nos dados usados para treiná-lo, qual é o problema?",
+      "alternativas": {
+        "A": "Cache distribuído",
+        "B": "Viés algorítmico",
+        "C": "Criptografia assimétrica",
+        "D": "Balanceamento de carga"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 27,
+      "categoria": "Inteligência artificial",
+      "dificuldade": "Médio",
+      "pergunta": "Como costuma ser chamado um vídeo sintético que simula, com IA, o rosto ou a fala de alguém?",
+      "alternativas": {
+        "A": "CAPTCHA",
+        "B": "Podcast",
+        "C": "Deepfake",
+        "D": "QR Code"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 28,
+      "categoria": "Inteligência artificial",
+      "dificuldade": "Médio",
+      "pergunta": "Por que conjuntos de treinamento e de teste devem ser separados na avaliação de uma IA?",
+      "alternativas": {
+        "A": "Para reduzir toda a tarefa a cálculos manuais",
+        "B": "Para garantir que toda resposta será verdadeira",
+        "C": "Para avaliar o modelo em exemplos não usados no treinamento",
+        "D": "Para impedir que o modelo cometa qualquer erro"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 29,
+      "categoria": "Inteligência artificial",
+      "dificuldade": "Difícil",
+      "pergunta": "Um modelo acerta quase todos os exemplos de treino, mas erra muitos exemplos novos. Qual problema isso sugere?",
+      "alternativas": {
+        "A": "Sobreajuste (overfitting)",
+        "B": "Compressão sem perdas",
+        "C": "Tokenização do texto",
+        "D": "Criptografia de ponta a ponta"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 30,
+      "categoria": "Inteligência artificial",
+      "dificuldade": "Difícil",
+      "pergunta": "Em modelos de linguagem, o que é um token?",
+      "alternativas": {
+        "A": "Uma senha secreta criada pelo usuário",
+        "B": "Uma placa usada para acelerar o computador",
+        "C": "Uma unidade de texto que pode ser uma palavra, parte dela ou um símbolo",
+        "D": "Um banco de dados de imagens"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 31,
+      "categoria": "Filmes e séries",
+      "dificuldade": "Fácil",
+      "pergunta": "Em Star Wars, quem é o personagem conhecido pela máscara preta e respiração mecânica?",
+      "alternativas": {
+        "A": "Darth Vader",
+        "B": "Boba Fett",
+        "C": "Obi-Wan Kenobi",
+        "D": "Luke Skywalker"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 32,
+      "categoria": "Filmes e séries",
+      "dificuldade": "Fácil",
+      "pergunta": "Qual é a identidade civil do Homem-Aranha interpretado por Tom Holland nos filmes?",
+      "alternativas": {
+        "A": "Peter Parker",
+        "B": "Tony Stark",
+        "C": "Eddie Brock",
+        "D": "Miles Morales"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 33,
+      "categoria": "Filmes e séries",
+      "dificuldade": "Fácil",
+      "pergunta": "Em Divertida Mente (2015), qual emoção é representada pela personagem amarela?",
+      "alternativas": {
+        "A": "Raiva",
+        "B": "Nojinho",
+        "C": "Alegria",
+        "D": "Tristeza"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 34,
+      "categoria": "Filmes e séries",
+      "dificuldade": "Fácil",
+      "pergunta": "Em Harry Potter, qual é a escola de magia frequentada por Harry?",
+      "alternativas": {
+        "A": "Beauxbatons",
+        "B": "Castelobruxo",
+        "C": "Ilvermorny",
+        "D": "Hogwarts"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 35,
+      "categoria": "Filmes e séries",
+      "dificuldade": "Médio",
+      "pergunta": "Em De Volta para o Futuro, qual carro é transformado em máquina do tempo?",
+      "alternativas": {
+        "A": "Batmóvel",
+        "B": "DeLorean",
+        "C": "Fusca",
+        "D": "Ferrari F40"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 36,
+      "categoria": "Filmes e séries",
+      "dificuldade": "Médio",
+      "pergunta": "No início do filme WALL-E, qual é o trabalho do robô protagonista na Terra?",
+      "alternativas": {
+        "A": "Controlar a previsão do tempo",
+        "B": "Transportar pessoas por uma estação",
+        "C": "Combater invasores alienígenas",
+        "D": "Compactar e organizar lixo"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 37,
+      "categoria": "Filmes e séries",
+      "dificuldade": "Médio",
+      "pergunta": "Em Vingadores: Guerra Infinita, qual vilão tenta reunir as Joias do Infinito?",
+      "alternativas": {
+        "A": "Loki",
+        "B": "Thanos",
+        "C": "Ronan",
+        "D": "Ultron"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 38,
+      "categoria": "Filmes e séries",
+      "dificuldade": "Médio",
+      "pergunta": "Em Matrix (1999), qual pílula Neo escolhe para descobrir a realidade fora da simulação?",
+      "alternativas": {
+        "A": "Verde",
+        "B": "Vermelha",
+        "C": "Branca",
+        "D": "Azul"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 39,
+      "categoria": "Filmes e séries",
+      "dificuldade": "Difícil",
+      "pergunta": "Em O Senhor dos Anéis, onde o Um Anel precisa ser destruído?",
+      "alternativas": {
+        "A": "Na Montanha da Perdição",
+        "B": "No Condado",
+        "C": "Em Valfenda",
+        "D": "Em Minas Tirith"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 40,
+      "categoria": "Filmes e séries",
+      "dificuldade": "Difícil",
+      "pergunta": "Em Jurassic Park (1993), que material recuperado de mosquitos é usado, na história, para recriar dinossauros?",
+      "alternativas": {
+        "A": "RNA de plantas",
+        "B": "Proteínas musculares intactas",
+        "C": "Clorofila",
+        "D": "DNA"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 41,
+      "categoria": "Memes e cultura digital",
+      "dificuldade": "Fácil",
+      "pergunta": "Qual é uma função comum das hashtags, como #tecnologia, nas redes sociais?",
+      "alternativas": {
+        "A": "Ocultar as fotos de todas as pessoas",
+        "B": "Ativar a câmera do celular",
+        "C": "Criptografar mensagens automaticamente",
+        "D": "Relacionar publicações a um tema"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 42,
+      "categoria": "Memes e cultura digital",
+      "dificuldade": "Fácil",
+      "pergunta": "Como chamamos uma ideia, imagem ou piada que circula na internet e costuma ser copiada e adaptada?",
+      "alternativas": {
+        "A": "Meme",
+        "B": "Pixel",
+        "C": "Firewall",
+        "D": "Driver"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 43,
+      "categoria": "Memes e cultura digital",
+      "dificuldade": "Fácil",
+      "pergunta": "Qual formato de arquivo de imagem é conhecido pelo uso de pequenas animações em repetição?",
+      "alternativas": {
+        "A": "BMP",
+        "B": "JPEG",
+        "C": "GIF",
+        "D": "ICO"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 44,
+      "categoria": "Memes e cultura digital",
+      "dificuldade": "Fácil",
+      "pergunta": "O que significa dizer que uma publicação viralizou nas redes sociais?",
+      "alternativas": {
+        "A": "Foi apagada de todas as plataformas",
+        "B": "Espalhou-se rapidamente entre muitas pessoas",
+        "C": "Passou a funcionar somente sem internet",
+        "D": "Recebeu necessariamente um vírus digital"
+      },
+      "respostaCorreta": "B"
+    },
+    {
+      "id": 45,
+      "categoria": "Memes e cultura digital",
+      "dificuldade": "Médio",
+      "pergunta": "O que é uma pegadinha chamada rickroll?",
+      "alternativas": {
+        "A": "Enviar um GIF de gato digitando",
+        "B": "Desafiar alguém a concluir um jogo sem salvar",
+        "C": "Surpreender alguém com o clipe Never Gonna Give You Up",
+        "D": "Mostrar um aviso falso de bateria fraca"
+      },
+      "respostaCorreta": "C"
+    },
+    {
+      "id": 46,
+      "categoria": "Memes e cultura digital",
+      "dificuldade": "Médio",
+      "pergunta": "Quando uma legenda de vídeo começa com POV, ela geralmente indica o quê?",
+      "alternativas": {
+        "A": "Uma cena apresentada a partir de um ponto de vista",
+        "B": "Uma lista de jogos mais vendidos",
+        "C": "Uma loja virtual com preços especiais",
+        "D": "Uma contagem de curtidas do perfil"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 47,
+      "categoria": "Memes e cultura digital",
+      "dificuldade": "Médio",
+      "pergunta": "Qual é a raça do cachorro que ficou famoso no meme Doge?",
+      "alternativas": {
+        "A": "Shiba Inu",
+        "B": "Pug",
+        "C": "Husky Siberiano",
+        "D": "Corgi"
+      },
+      "respostaCorreta": "A"
+    },
+    {
+      "id": 48,
+      "categoria": "Memes e cultura digital",
+      "dificuldade": "Médio",
+      "pergunta": "Quando um site mostra o código de erro HTTP 404, o que ele informa?",
+      "alternativas": {
+        "A": "Houve um erro interno do servidor",
+        "B": "Foram feitas solicitações demais",
+        "C": "O acesso foi proibido pelo servidor",
+        "D": "O recurso solicitado não foi encontrado"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 49,
+      "categoria": "Memes e cultura digital",
+      "dificuldade": "Difícil",
+      "pergunta": "O meme \"Press F to pay respects\" ficou conhecido por uma cena de qual jogo?",
+      "alternativas": {
+        "A": "Halo 3",
+        "B": "Battlefield 4",
+        "C": "Grand Theft Auto V",
+        "D": "Call of Duty: Advanced Warfare"
+      },
+      "respostaCorreta": "D"
+    },
+    {
+      "id": 50,
+      "categoria": "Memes e cultura digital",
+      "dificuldade": "Difícil",
+      "pergunta": "Na imagem clássica do meme \"This is fine\", o que aparece?",
+      "alternativas": {
+        "A": "Um cachorro tranquilo enquanto o ambiente está pegando fogo",
+        "B": "Um gato digitando em um computador",
+        "C": "Um menino olhando desconfiado para a câmera",
+        "D": "Uma pessoa apontando para a própria cabeça"
+      },
+      "respostaCorreta": "A"
+    }
+  ]
+}

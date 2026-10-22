@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d21">
+  <meta name="description" content="Quiz Geek: 50 perguntas aleatórias sobre jogos, tecnologia, inteligência artificial, filmes e cultura digital.">
+  <title>Quiz Geek — 50 Perguntas</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="dados-offline.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <main class="pagina">
+    <header class="topo">
+      <div class="marca">
+        <div class="marca-icone" aria-hidden="true">G<span>G</span></div>
+        <div>
+          <p class="sobrelinha">DESAFIO INTERATIVO</p>
+          <h1>QUIZ <span>GEEK</span></h1>
+          <p class="subtitulo">Jogos · Tecnologia · IA · Cinema · Cultura digital</p>
+        </div>
+      </div>
+      <div class="informacoes-topo">
+        <span class="selo">15 QUESTÕES</span>
+        <span id="contadorTopo" class="contador-topo" aria-live="polite">0 / 15 sorteadas</span>
+      </div>
+    </header>
+
+    <section class="area-jogo" aria-label="Área do quiz">
+      <div class="moldura">
+        <div class="linha-moldura" aria-hidden="true"></div>
+
+        <section id="intro" class="estado estado-inicio">
+          <div class="interrogacao" aria-hidden="true">?</div>
+          <div class="identificador">QUIZ GEEK • PRONTO PARA COMEÇAR</div>
+          <h2>Quem sabe, <span>responde!</span></h2>
+          <p class="texto-intro">50 perguntas sorteadas, sem repetição. Escolha uma alternativa de <strong>A a D</strong> para descobrir na hora se acertou ou errou.</p>
+          <button id="btnComecar" class="botao botao-principal" type="button" disabled>
+            <span class="botao-simbolo" aria-hidden="true">↻</span>
+            SORTEAR PERGUNTA
+            <span aria-hidden="true">→</span>
+          </button>
+          <div class="rodape-intro">Sem cronômetro · Sem placar automático · Uma pergunta por vez</div>
+        </section>
+
+        <section id="painelQuiz" class="estado estado-pergunta oculto" aria-label="Pergunta atual">
+          <div class="linha-info">
+            <span id="categoria" class="categoria">Categoria</span>
+            <span id="dificuldade" class="nivel">NÍVEL MÉDIO</span>
+            <span id="numeroPergunta" class="numero-pergunta">PERGUNTA 01 / 50</span>
+          </div>
+          <div class="pergunta-box">
+            <p class="rotulo-pergunta">ESCOLHA A ALTERNATIVA CORRETA</p>
+            <h2 id="perguntaTexto" tabindex="-1"></h2>
+          </div>
+          <div id="opcoes" class="grade-opcoes" role="group" aria-label="Alternativas de resposta"></div>
+
+          <div id="feedback" class="feedback oculto" aria-live="polite" role="status">
+            <strong id="feedbackTitulo"></strong>
+            <span id="feedbackDetalhe"></span>
+          </div>
+          <div class="acoes-pergunta">
+            <p id="instrucao" class="instrucao">Clique em A, B, C ou D para responder.</p>
+            <button id="btnProxima" type="button" class="botao botao-principal oculto">PRÓXIMA PERGUNTA <span aria-hidden="true">→</span></button>
+          </div>
+        </section>
+
+        <section id="fim" class="estado estado-fim oculto">
+          <div class="interrogacao trofeu" aria-hidden="true">★</div>
+          <div class="identificador">RODADA CONCLUÍDA</div>
+          <h2>As 50 perguntas <span>foram apresentadas!</span></h2>
+          <p class="texto-intro">O quiz terminou. Para jogar novamente com outra ordem aleatória, inicie uma nova rodada.</p>
+          <button id="btnReiniciarFinal" class="botao botao-principal" type="button">NOVA RODADA <span aria-hidden="true">↻</span></button>
+        </section>
+      </div>
+    </section>
+
+    <footer class="rodape-site">
+      <span>QUIZ GEEK <span class="separador">/</span> EDIÇÃO ESCOLAR</span>
+      <div class="rodape-direita">
+        <span id="estadoCarregamento">Carregando perguntas...</span>
+        <button id="btnZerar" class="botao-discreto oculto" type="button" title="Recomeçar as 50 perguntas">Recomeçar rodada</button>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
